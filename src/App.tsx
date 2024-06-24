@@ -1,26 +1,24 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from 'react';
+import Graph2D from './components/Graph2D';
+import Graph3D from './components/Graph3D';
+import BabylonScene from './components/BabylonScene';
 
-function App() {
+const App: React.FC = () => {
+  const [is3D, setIs3D] = useState(true);
+
+  const toggleVisualization = () => {
+    setIs3D(prevState => !prevState);
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <button onClick={toggleVisualization}>
+        {is3D ? 'Switch to 2D' : 'Switch to 3D'}
+      </button>
+      {is3D ? <Graph3D /> : <Graph2D />}
+      {/* <BabylonScene /> */}
     </div>
   );
-}
+};
 
 export default App;

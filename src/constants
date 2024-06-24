@@ -1,0 +1,3 @@
+const uri = 'bolt://demo.neo4jlabs.com';
+const user = 'neo4j';
+const password = 'movies';
