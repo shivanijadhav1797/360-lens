@@ -3,7 +3,7 @@ import { HemisphericLight, Vector3, Scene, ArcRotateCamera, StandardMaterial, Co
 import * as anu from '@jpmorganchase/anu'
 import * as d3 from 'd3';
 import { forceSimulation, forceCenter, forceManyBody, forceLink, forceCollide } from 'd3-force-3d'; //External required dependency for force layouts!
-import leMis from './miserables.json' assert {type: 'json'}; //Our data
+import leMis from './data.json' assert {type: 'json'}; //Our data
 
 
 export const nodelink3d = function (engine) {
