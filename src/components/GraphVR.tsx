@@ -14,7 +14,7 @@ interface Neo4jLink {
   label: string;
 }
 
-const Graph3D = () => {
+const GraphVR = () => {
   const [graphData, setGraphData] = useState<{ nodes: Neo4jNode[]; links: Neo4jLink[] }>({ nodes: [], links: [] });
   const graphRef = useRef<HTMLDivElement | null>(null);
   const graphInstance = useRef<any>(null);
@@ -67,4 +67,4 @@ const Graph3D = () => {
   );
 };
 
-export default Graph3D;
+export default GraphVR;
