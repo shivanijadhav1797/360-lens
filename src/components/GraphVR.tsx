@@ -53,8 +53,8 @@ const GraphVR = () => {
     if (graphRef.current && graphData.nodes.length > 0 && graphData.links.length > 0) {
       graphInstance.current = ForceGraphVR()(graphRef.current)
         .graphData(graphData)
-        // .backgroundColor('#ffffff') // Set the background color to white
-        // .nodeAutoColorBy("group")
+        .backgroundColor('#ffffff') // Set the background color to white
+        .nodeAutoColorBy("id")
         .linkColor('black')
         .linkWidth(2);
     }
