@@ -34,7 +34,7 @@ const GraphVR = () => {
           nodes.push({
             id: record.l1.id,
             label: record.l1.labels[0],
-            details: record.l1.properties.name,
+            details: record.l1.labels[0] + ': ' + record.l1.properties.name,
             shape: 'box',
             color: '#98fb98',
             group: 1
@@ -42,7 +42,7 @@ const GraphVR = () => {
           nodes.push({
             id: record.l2.id,
             label: record.l2.labels[0],
-            details: record.l2.properties.name,
+            details: record.l2.labels[0] + ': ' + record.l1.properties.name,
             shape: 'cylinder',
             color: '#50c878',
             group: 2
@@ -50,7 +50,7 @@ const GraphVR = () => {
           nodes.push({
             id: record.l3.id,
             label: record.l3.labels[0],
-            details: record.l3.properties.name,
+            details: record.l3.labels[0] + ': ' + record.l1.properties.name,
             shape: 'cone',
             color: '#088f8f',
             group: 3
@@ -58,7 +58,7 @@ const GraphVR = () => {
           nodes.push({
             id: record.a.id,
             label: record.a.labels[0],
-            details: record.a.properties.name,
+            details: record.a.labels[0] + ': ' + record.l1.properties.name,
             shape: 'torusknot',
             color: '#af69ee',
             group: 4

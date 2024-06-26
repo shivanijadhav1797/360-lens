@@ -3,6 +3,405 @@
     {
       "l1": {
         "id": "1",
+        "labels": ["Level1"],
+        "properties": {
+          "name": "Customer Experience"
+        }
+      },
+      "l2": {
+        "id": "2",
+        "labels": ["Level2"],
+        "properties": {
+          "name": "Analytics Platform"
+        }
+      },
+      "l3": {
+        "id": "3",
+        "labels": ["Level3"],
+        "properties": {
+          "name": "Advanced Data Science"
+        }
+      },
+      "a": {
+        "id": "4",
+        "labels": ["App"],
+        "properties": {
+          "name": "Sales Analytics Dashboard"
+        }
+      },
+      "h2": {
+        "id": "101",
+        "start": "1",
+        "end": "2",
+        "type": "has_level2",
+        "properties": {
+          "description": "Relation between Level 1 and Level 2"
+        }
+      },
+      "h3": {
+        "id": "201",
+        "start": "2",
+        "end": "3",
+        "type": "has_level3",
+        "properties": {
+          "description": "Relation between Level 2 and Level 3"
+        }
+      },
+      "ha": {
+        "id": "301",
+        "start": "3",
+        "end": "4",
+        "type": "has_application",
+        "properties": {
+          "description": "Relation between Level 3 and Application"
+        }
+      }
+    },
+    {
+      "l1": {
+        "id": "5",
+        "labels": ["Level1"],
+        "properties": {
+          "name": "Marketing Strategy"
+        }
+      },
+      "l2": {
+        "id": "6",
+        "labels": ["Level2"],
+        "properties": {
+          "name": "Campaign Analysis"
+        }
+      },
+      "l3": {
+        "id": "7",
+        "labels": ["Level3"],
+        "properties": {
+          "name": "Digital Marketing Optimization"
+        }
+      },
+      "a": {
+        "id": "8",
+        "labels": ["App"],
+        "properties": {
+          "name": "SEO Dashboard"
+        }
+      },
+      "h2": {
+        "id": "102",
+        "start": "5",
+        "end": "6",
+        "type": "has_level2",
+        "properties": {
+          "description": "Relation between Level 1 and Level 2"
+        }
+      },
+      "h3": {
+        "id": "202",
+        "start": "6",
+        "end": "7",
+        "type": "has_level3",
+        "properties": {
+          "description": "Relation between Level 2 and Level 3"
+        }
+      },
+      "ha": {
+        "id": "302",
+        "start": "7",
+        "end": "8",
+        "type": "has_application",
+        "properties": {
+          "description": "Relation between Level 3 and Application"
+        }
+      }
+    },
+    {
+      "l1": {
+        "id": "9",
+        "labels": ["Level1"],
+        "properties": {
+          "name": "Product Development"
+        }
+      },
+      "l2": {
+        "id": "10",
+        "labels": ["Level2"],
+        "properties": {
+          "name": "Prototype Testing"
+        }
+      },
+      "l3": {
+        "id": "11",
+        "labels": ["Level3"],
+        "properties": {
+          "name": "User Feedback Analysis"
+        }
+      },
+      "a": {
+        "id": "12",
+        "labels": ["App"],
+        "properties": {
+          "name": "Product Management Dashboard"
+        }
+      },
+      "h2": {
+        "id": "103",
+        "start": "9",
+        "end": "10",
+        "type": "has_level2",
+        "properties": {
+          "description": "Relation between Level 1 and Level 2"
+        }
+      },
+      "h3": {
+        "id": "203",
+        "start": "10",
+        "end": "11",
+        "type": "has_level3",
+        "properties": {
+          "description": "Relation between Level 2 and Level 3"
+        }
+      },
+      "ha": {
+        "id": "303",
+        "start": "11",
+        "end": "12",
+        "type": "has_application",
+        "properties": {
+          "description": "Relation between Level 3 and Application"
+        }
+      }
+    },
+    {
+      "l1": {
+        "id": "13",
+        "labels": ["Level1"],
+        "properties": {
+          "name": "Supply Chain Management"
+        }
+      },
+      "l2": {
+        "id": "14",
+        "labels": ["Level2"],
+        "properties": {
+          "name": "Logistics Optimization"
+        }
+      },
+      "l3": {
+        "id": "15",
+        "labels": ["Level3"],
+        "properties": {
+          "name": "Inventory Control"
+        }
+      },
+      "a": {
+        "id": "16",
+        "labels": ["App"],
+        "properties": {
+          "name": "Supply Chain Dashboard"
+        }
+      },
+      "h2": {
+        "id": "104",
+        "start": "13",
+        "end": "14",
+        "type": "has_level2",
+        "properties": {
+          "description": "Relation between Level 1 and Level 2"
+        }
+      },
+      "h3": {
+        "id": "204",
+        "start": "14",
+        "end": "15",
+        "type": "has_level3",
+        "properties": {
+          "description": "Relation between Level 2 and Level 3"
+        }
+      },
+      "ha": {
+        "id": "304",
+        "start": "15",
+        "end": "16",
+        "type": "has_application",
+        "properties": {
+          "description": "Relation between Level 3 and Application"
+        }
+      }
+    },
+    {
+      "l1": {
+        "id": "17",
+        "labels": ["Level1"],
+        "properties": {
+          "name": "Financial Planning"
+        }
+      },
+      "l2": {
+        "id": "10",
+        "labels": ["Level2"],
+        "properties": {
+          "name": "Budget Analysis"
+        }
+      },
+      "l3": {
+        "id": "19",
+        "labels": ["Level3"],
+        "properties": {
+          "name": "Forecasting Models"
+        }
+      },
+      "a": {
+        "id": "20",
+        "labels": ["App"],
+        "properties": {
+          "name": "Financial Dashboard"
+        }
+      },
+      "h2": {
+        "id": "105",
+        "start": "17",
+        "end": "10",
+        "type": "has_level2",
+        "properties": {
+          "description": "Relation between Level 1 and Level 2"
+        }
+      },
+      "h3": {
+        "id": "205",
+        "start": "10",
+        "end": "19",
+        "type": "has_level3",
+        "properties": {
+          "description": "Relation between Level 2 and Level 3"
+        }
+      },
+      "ha": {
+        "id": "305",
+        "start": "19",
+        "end": "20",
+        "type": "has_application",
+        "properties": {
+          "description": "Relation between Level 3 and Application"
+        }
+      }
+    },
+    {
+      "l1": {
+        "id": "21",
+        "labels": ["Level1"],
+        "properties": {
+          "name": "Human Resources"
+        }
+      },
+      "l2": {
+        "id": "22",
+        "labels": ["Level2"],
+        "properties": {
+          "name": "Employee Engagement"
+        }
+      },
+      "l3": {
+        "id": "23",
+        "labels": ["Level3"],
+        "properties": {
+          "name": "Performance Management"
+        }
+      },
+      "a": {
+        "id": "24",
+        "labels": ["App"],
+        "properties": {
+          "name": "HR Analytics Dashboard"
+        }
+      },
+      "h2": {
+        "id": "106",
+        "start": "21",
+        "end": "22",
+        "type": "has_level2",
+        "properties": {
+          "description": "Relation between Level 1 and Level 2"
+        }
+      },
+      "h3": {
+        "id": "206",
+        "start": "22",
+        "end": "23",
+        "type": "has_level3",
+        "properties": {
+          "description": "Relation between Level 2 and Level 3"
+        }
+      },
+      "ha": {
+        "id": "306",
+        "start": "23",
+        "end": "24",
+        "type": "has_application",
+        "properties": {
+          "description": "Relation between Level 3 and Application"
+        }
+      }
+    },
+    {
+      "l1": {
+        "id": "25",
+        "labels": ["Level1"],
+        "properties": {
+          "name": "Research and Development"
+        }
+      },
+      "l2": {
+        "id": "10",
+        "labels": ["Level2"],
+        "properties": {
+          "name": "Innovation Lab"
+        }
+      },
+      "l3": {
+        "id": "27",
+        "labels": ["Level3"],
+        "properties": {
+          "name": "Technology Prototyping"
+        }
+      },
+      "a": {
+        "id": "28",
+        "labels": ["App"],
+        "properties": {
+          "name": "R&D Dashboard"
+        }
+      },
+      "h2": {
+        "id": "107",
+        "start": "25",
+        "end": "10",
+        "type": "has_level2",
+        "properties": {
+          "description": "Relation between Level 1 and Level 2"
+        }
+      },
+      "h3": {
+        "id": "207",
+        "start": "10",
+        "end": "27",
+        "type": "has_level3",
+        "properties": {
+          "description": "Relation between Level 2 and Level 3"
+        }
+      },
+      "ha": {
+        "id": "307",
+        "start": "27",
+        "end": "28",
+        "type": "has_application",
+        "properties": {
+          "description": "Relation between Level 3 and Application"
+        }
+      }
+    },
+    {
+      "l1": {
+        "id": "1",
         "labels": ["level1"],
         "properties": {
           "name": "Customer Experience"
@@ -66,7 +465,7 @@
         }
       },
       "l2": {
-        "id": "6",
+        "id": "2",
         "labels": ["level2"],
         "properties": {
           "name": "Campaign Analysis"
@@ -89,7 +488,7 @@
       "h2": {
         "id": "102",
         "start": "5",
-        "end": "6",
+        "end": "2",
         "type": "has_level2",
         "properties": {
           "description": "Relation between Level 1 and Level 2"
@@ -97,7 +496,7 @@
       },
       "h3": {
         "id": "202",
-        "start": "6",
+        "start": "2",
         "end": "7",
         "type": "has_level3",
         "properties": {
@@ -123,7 +522,7 @@
         }
       },
       "l2": {
-        "id": "10",
+        "id": "2",
         "labels": ["level2"],
         "properties": {
           "name": "Prototype Testing"
@@ -146,7 +545,7 @@
       "h2": {
         "id": "103",
         "start": "9",
-        "end": "10",
+        "end": "2",
         "type": "has_level2",
         "properties": {
           "description": "Relation between Level 1 and Level 2"
@@ -154,7 +553,7 @@
       },
       "h3": {
         "id": "203",
-        "start": "10",
+        "start": "2",
         "end": "11",
         "type": "has_level3",
         "properties": {
@@ -180,7 +579,7 @@
         }
       },
       "l2": {
-        "id": "14",
+        "id": "2",
         "labels": ["level2"],
         "properties": {
           "name": "Logistics Optimization"
@@ -203,7 +602,7 @@
       "h2": {
         "id": "104",
         "start": "13",
-        "end": "14",
+        "end": "2",
         "type": "has_level2",
         "properties": {
           "description": "Relation between Level 1 and Level 2"
@@ -211,7 +610,7 @@
       },
       "h3": {
         "id": "204",
-        "start": "14",
+        "start": "2",
         "end": "15",
         "type": "has_level3",
         "properties": {
@@ -222,234 +621,6 @@
         "id": "304",
         "start": "15",
         "end": "16",
-        "type": "has_application",
-        "properties": {
-          "description": "Relation between Level 3 and Application"
-        }
-      }
-    },
-    {
-      "l1": {
-        "id": "17",
-        "labels": ["level1"],
-        "properties": {
-          "name": "Financial Planning"
-        }
-      },
-      "l2": {
-        "id": "18",
-        "labels": ["level2"],
-        "properties": {
-          "name": "Budget Analysis"
-        }
-      },
-      "l3": {
-        "id": "19",
-        "labels": ["level3"],
-        "properties": {
-          "name": "Forecasting Models"
-        }
-      },
-      "a": {
-        "id": "20",
-        "labels": ["app"],
-        "properties": {
-          "name": "Financial Dashboard"
-        }
-      },
-      "h2": {
-        "id": "105",
-        "start": "17",
-        "end": "18",
-        "type": "has_level2",
-        "properties": {
-          "description": "Relation between Level 1 and Level 2"
-        }
-      },
-      "h3": {
-        "id": "205",
-        "start": "18",
-        "end": "19",
-        "type": "has_level3",
-        "properties": {
-          "description": "Relation between Level 2 and Level 3"
-        }
-      },
-      "ha": {
-        "id": "305",
-        "start": "19",
-        "end": "20",
-        "type": "has_application",
-        "properties": {
-          "description": "Relation between Level 3 and Application"
-        }
-      }
-    },
-    {
-      "l1": {
-        "id": "21",
-        "labels": ["level1"],
-        "properties": {
-          "name": "Human Resources"
-        }
-      },
-      "l2": {
-        "id": "22",
-        "labels": ["level2"],
-        "properties": {
-          "name": "Employee Engagement"
-        }
-      },
-      "l3": {
-        "id": "23",
-        "labels": ["level3"],
-        "properties": {
-          "name": "Performance Management"
-        }
-      },
-      "a": {
-        "id": "24",
-        "labels": ["app"],
-        "properties": {
-          "name": "HR Analytics Dashboard"
-        }
-      },
-      "h2": {
-        "id": "106",
-        "start": "21",
-        "end": "22",
-        "type": "has_level2",
-        "properties": {
-          "description": "Relation between Level 1 and Level 2"
-        }
-      },
-      "h3": {
-        "id": "206",
-        "start": "22",
-        "end": "23",
-        "type": "has_level3",
-        "properties": {
-          "description": "Relation between Level 2 and Level 3"
-        }
-      },
-      "ha": {
-        "id": "306",
-        "start": "23",
-        "end": "24",
-        "type": "has_application",
-        "properties": {
-          "description": "Relation between Level 3 and Application"
-        }
-      }
-    },
-    {
-      "l1": {
-        "id": "25",
-        "labels": ["level1"],
-        "properties": {
-          "name": "Research and Development"
-        }
-      },
-      "l2": {
-        "id": "26",
-        "labels": ["level2"],
-        "properties": {
-          "name": "Innovation Lab"
-        }
-      },
-      "l3": {
-        "id": "27",
-        "labels": ["level3"],
-        "properties": {
-          "name": "Technology Prototyping"
-        }
-      },
-      "a": {
-        "id": "28",
-        "labels": ["app"],
-        "properties": {
-          "name": "R&D Dashboard"
-        }
-      },
-      "h2": {
-        "id": "107",
-        "start": "25",
-        "end": "26",
-        "type": "has_level2",
-        "properties": {
-          "description": "Relation between Level 1 and Level 2"
-        }
-      },
-      "h3": {
-        "id": "207",
-        "start": "26",
-        "end": "27",
-        "type": "has_level3",
-        "properties": {
-          "description": "Relation between Level 2 and Level 3"
-        }
-      },
-      "ha": {
-        "id": "307",
-        "start": "27",
-        "end": "28",
-        "type": "has_application",
-        "properties": {
-          "description": "Relation between Level 3 and Application"
-        }
-      }
-    },
-    {
-      "l1": {
-        "id": "25",
-        "labels": ["level1"],
-        "properties": {
-          "name": "Research and Development"
-        }
-      },
-      "l2": {
-        "id": "10",
-        "labels": ["level2"],
-        "properties": {
-          "name": "Innovation Lab"
-        }
-      },
-      "l3": {
-        "id": "11",
-        "labels": ["level3"],
-        "properties": {
-          "name": "Technology Prototyping"
-        }
-      },
-      "a": {
-        "id": "28",
-        "labels": ["app"],
-        "properties": {
-          "name": "R&D Dashboard"
-        }
-      },
-      "h2": {
-        "id": "107",
-        "start": "25",
-        "end": "26",
-        "type": "has_level2",
-        "properties": {
-          "description": "Relation between Level 1 and Level 2"
-        }
-      },
-      "h3": {
-        "id": "207",
-        "start": "26",
-        "end": "27",
-        "type": "has_level3",
-        "properties": {
-          "description": "Relation between Level 2 and Level 3"
-        }
-      },
-      "ha": {
-        "id": "307",
-        "start": "27",
-        "end": "28",
         "type": "has_application",
         "properties": {
           "description": "Relation between Level 3 and Application"
