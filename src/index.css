@@ -11,3 +11,9 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.scene-tooltip{
+  top: 0;
+  color: darkgrey;
+  font-size: 5px;
+}
